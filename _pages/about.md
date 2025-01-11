@@ -22,3 +22,5 @@ social: true # includes social icons at the bottom of the page
 Hello world, I am currently working as a Software Developer (SDE 1) in Bangalore. I graduated with a B.Tech degree in Computer Science Engineering and Design from IIIT Delhi. My interests are Human Computer Interaction, Software Engineering, etc.
 
 This website is still in development.
+
+Work is still in progress.
