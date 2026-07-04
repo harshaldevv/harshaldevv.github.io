@@ -31,11 +31,22 @@ latest_posts:
 
 Hello World,
 
-My name is Harshal Dev (Dholchike). I am a Software Engineer by profession working in Bangalore, India 🇮🇳.
+My name is Harshal Dev (Dholchike). I am a Software Engineer working in Bangalore, India 🇮🇳. I graduated from <a href='https://iiitd.ac.in/'>IIIT Delhi</a> with a Computer Science Engineering degree where I played with 0s and 1s.
 
-My interests are Software Engineering, Human-Computer Interaction, etc
+My interests include Software Engineering, Distributed Systems, Human-Computer Interaction, and building things that make people's lives just a little bit easier.
 
-This website is still WIP
+I am always up for a game of Badminton 🏸, Table Tennis 🏓 or Swimming 🏊‍♂️.
+
+I seem to have a penchant for (mobile) Photography (WIP for embedding a gallery page in the webiste)
+
+I also upload videos on my <a href="https://www.youtube.com/@HarshalDev">YouTube channel</a> to document my life (or as a dumping ground to free up my phone's memory)
+
+
+<!-- My undergraduate research on UPI's impact on spending bheaviour kinda blew up. Check it out here at (link 1, link 2 , etc) -->
+
+
+
+This website is still WIP 🚧⏳🔄🔜
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
@@ -43,4 +54,4 @@ This website is still WIP
 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below.  -->
 
-Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<!-- Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
