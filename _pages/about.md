@@ -29,8 +29,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello World,
-
 My name is Harshal Dev (Dholchike). I am a Software Engineer working in Bangalore, India 🇮🇳. I graduated from <a href='https://iiitd.ac.in/'>IIIT Delhi</a> with a Computer Science Engineering degree where I played with 0s and 1s.
 
 My interests include Software Engineering, Distributed Systems, Human-Computer Interaction, and building things that make people's lives just a little bit easier.
