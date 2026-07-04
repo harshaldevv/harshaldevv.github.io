@@ -27,7 +27,25 @@ latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+images:
+  slider: true # enables the Swiper image slider used by the profile photo carousel below
 ---
+
+<!-- ─────────────────────────────────────────────────────────────────────
+     Auto-rotating profile photo carousel.
+     • Add / remove images in  assets/img/profile_pics/  (.jpg / .jpeg / .png)
+       and they appear here automatically, sorted by file name.
+     • It auto-advances every 3s; users can also use the arrows, the dots,
+       or the ← → keys to move back and forth.
+     ───────────────────────────────────────────────────────────────────── -->
+<div class="profile-carousel" style="max-width: 360px; margin: 0 auto 2rem;">
+{% assign profile_pics = site.static_files | where_exp: "file", "file.path contains '/assets/img/profile_pics/'" | sort: "path" %}
+<swiper-container loop="true" autoplay="true" autoplay-delay="3000" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" keyboard="true">
+{% for file in profile_pics %}{% assign ext = file.extname | downcase %}{% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".gif" %}{% assign p = file.path | remove_first: "/" %}
+  <swiper-slide>{% include figure.liquid loading="eager" path=p class="img-fluid rounded z-depth-1" %}</swiper-slide>{% endif %}{% endfor %}
+</swiper-container>
+</div>
 
 My name is Harshal Dev (aka Dholchike). I am a Software Engineer based out of India 🇮🇳. I graduated from <a href='https://iiitd.ac.in/'>IIIT Delhi</a> with a Computer Science Engineering (B.Tech) where I played with 0s and 1s.
 
@@ -35,7 +53,7 @@ My interests include Software Engineering, Distributed Systems, Human-Computer I
 
 I am always up for a game of Badminton 🏸, Table Tennis 🏓 or Swimming 🏊‍♂️.
 
-I have a penchant for (mobile) Photography (WIP for embedding a gallery page in the website)
+I have a penchant for (mobile) Photography — check out my [photo gallery](/gallery/) 📸 (still a work in progress)
 
 I also upload videos on my <a href="https://www.youtube.com/@HarshalDev">YouTube channel</a> to document my life (or as a dumping ground to free up my phone's memory)
 
