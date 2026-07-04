@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-subtitle: A moving man will eventually meet his luck !!
+subtitle: Current Life Motto - A moving man will eventually meet his LUCK !!
 
 
 profile:
@@ -29,22 +29,20 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Harshal Dev (Dholchike). I am a Software Engineer working in Bangalore, India 🇮🇳. I graduated from <a href='https://iiitd.ac.in/'>IIIT Delhi</a> with a Computer Science Engineering degree where I played with 0s and 1s.
+My name is Harshal Dev (aka Dholchike). I am a Software Engineer based out of India 🇮🇳. I graduated from <a href='https://iiitd.ac.in/'>IIIT Delhi</a> with a Computer Science Engineering (B.Tech) where I played with 0s and 1s.
 
-My interests include Software Engineering, Distributed Systems, Human-Computer Interaction, and building things that make people's lives just a little bit easier.
+My interests include Software Engineering, Distributed Systems, Human-Computer Interaction and asking and seeking answers to "questions".
 
 I am always up for a game of Badminton 🏸, Table Tennis 🏓 or Swimming 🏊‍♂️.
 
-I seem to have a penchant for (mobile) Photography (WIP for embedding a gallery page in the webiste)
+I have a penchant for (mobile) Photography (WIP for embedding a gallery page in the website)
 
 I also upload videos on my <a href="https://www.youtube.com/@HarshalDev">YouTube channel</a> to document my life (or as a dumping ground to free up my phone's memory)
 
 
 <!-- My undergraduate research on UPI's impact on spending bheaviour kinda blew up. Check it out here at (link 1, link 2 , etc) -->
 
-
-
-This website is still WIP 🚧⏳🔄🔜
+This website is still WIP 🚧⏳🔄🔜 (suggestions are always welcome !!)
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
