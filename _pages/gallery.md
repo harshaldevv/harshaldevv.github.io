@@ -2,7 +2,7 @@
 layout: page
 title: gallery
 permalink: /gallery/
-description: A few moments I've captured through my lens 📸 — a work in progress.
+description: A few moments I've captured through my lens 📸 :D
 nav: true
 nav_order: 4
 images:
@@ -45,4 +45,4 @@ images:
   .gallery-thumbs .swiper-slide-thumb-active img { outline: 3px solid var(--global-theme-color); outline-offset: -1px; }
 </style>
 
-<p class="text-center mt-3" style="opacity: 0.7;">Click a thumbnail, use the arrows, or your ← → keys to browse. More coming soon.</p>
+<p class="text-center mt-3" style="opacity: 0.7;">Click a thumbnail, use the arrows, or your ← → keys to browse.</p>

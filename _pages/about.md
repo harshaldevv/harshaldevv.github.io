@@ -76,6 +76,8 @@ images:
 
 My name is Harshal Dev (aka Dholchike). I am a Software Engineer based out of India 🇮🇳. I graduated from <a href='https://iiitd.ac.in/'>IIIT Delhi</a> with a Computer Science Engineering (B.Tech) where I played with 0s and 1s.
 
+Looks like from my surname, I was BORN to be a Software "Dev" 😉
+
 My interests include Software Engineering, Distributed Systems, Human-Computer Interaction and asking and seeking answers to "questions".
 
 I am always up for a game of Badminton 🏸, Table Tennis 🏓 or Swimming 🏊‍♂️.
@@ -83,8 +85,6 @@ I am always up for a game of Badminton 🏸, Table Tennis 🏓 or Swimming 🏊�
 I have a penchant for (mobile) Photography — check out my [photo gallery](/gallery/) 📸 (still a work in progress)
 
 I also upload videos on my <a href="https://www.youtube.com/@HarshalDev">YouTube channel</a> to document my life (or as a dumping ground to free up my phone's memory)
-
-PS - I sometimes like to call myself as Self proclaimed chewing gum Connoisseur
 
 
 <!-- My undergraduate research on UPI's impact on spending bheaviour kinda blew up. Check it out here at (link 1, link 2 , etc) -->
