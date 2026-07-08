@@ -28,8 +28,10 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
+enable_profile_carousel: false # true = rotating photo carousel in place of the static profile photo; false = plain static photo (default — the carousel still has sizing issues to fix later)
+
 images:
-  slider: true # enables the Swiper image slider used by the profile photo carousel below
+  slider: true # loads the Swiper library used by the profile carousel when it is enabled above
 ---
 
 <!-- ─────────────────────────────────────────────────────────────────────
@@ -43,6 +45,7 @@ images:
      replacing the static <img> the theme renders there. If JS is off, the
      static profile photo simply stays.
      ───────────────────────────────────────────────────────────────────── -->
+{% if page.enable_profile_carousel %}
 {% assign profile_pics = site.static_files | where_exp: "file", "file.path contains '/assets/img/profile_pics/'" | sort: "path" %}
 <template id="profile-carousel-tpl">
   <swiper-container class="profile-swiper" loop="true" autoplay="true" autoplay-delay="3500" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" keyboard="true">
@@ -73,6 +76,7 @@ images:
     }
   })();
 </script>
+{% endif %}
 
 My name is Harshal Dev (aka Dholchike). I am a Software Engineer based out of India 🇮🇳. I graduated from <a href='https://iiitd.ac.in/'>IIIT Delhi</a> with a Computer Science Engineering (B.Tech) where I played with 0s and 1s.
 
