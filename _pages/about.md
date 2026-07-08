@@ -84,7 +84,7 @@ My interests include Software Engineering, Distributed Systems, Human-Computer I
 
 I am always up for a game of Badminton 🏸, Table Tennis 🏓 or Swimming 🏊‍♂️.
 
-I have a penchant for (mobile) Photography — check out my [photo gallery](/gallery/) 📸 (still a work in progress)
+I have a penchant for (mobile) Photography — check out my [photo gallery](/gallery/) 📸
 
 I also upload videos on my <a href="https://www.youtube.com/@HarshalDev">YouTube channel</a> to document my life (or as a dumping ground to free up my phone's memory)
 
